@@ -5,8 +5,11 @@ describe Vhx::Quartz do
     expect(Vhx::Quartz::VERSION).not_to be nil
   end
 
-  it 'contains the vhx-quartz.css file in the vendor/assets folder' do
-    file = "#{Rails.root}/vendor/assets/stylesheets/vhx-quartz.css"
-    File.exists?(file).should be_true
+  it 'contains the vhx-quartz.css file in the vendor/assets/stylesheets folder' do
+    File.file?("vendor/assets/stylesheets/vhx-quartz.css").should be true
+  end
+
+  it 'contains a minified version of the vhx-quartz.css file in vendor/assets/stylesheets folder' do
+    File.file?("vendor/assets/stylesheets/vhx-quartz.min.css").should be true
   end
 end
