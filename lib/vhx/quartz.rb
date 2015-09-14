@@ -5,8 +5,10 @@ if !defined?(Rails)
 end
 
 module Vhx
-  module Rails
-    class Engine < ::Rails::Engine
+  module Quartz
+    module Rails
+      class Engine < ::Rails::Engine
+      end
     end
   end
 end
