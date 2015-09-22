@@ -3343,7 +3343,7 @@ hr.column {
   .form input[type="password"],
   .form input[type="number"],
   .form textarea {
-    height: 40;
+    height: 40px;
     width: 100%;
     padding: 6px 15px;
     color: #5E7887;
@@ -12781,8 +12781,7 @@ a.badge:hover, a.badge:active {
       border-bottom: 1px solid #d6dcdf; }
     .table thead th {
       padding: 15px 15px 15px 20px;
-      border: none;
-      background: url(image-path("admin/table-tick.png")) no-repeat 0 100%; }
+      border: none; }
       .table thead th:first-child {
         background: none; }
     .table thead.no-tick {
@@ -13085,6 +13084,20 @@ a.text--white:hover, a.text--white:active {
   text-decoration: none; }
 a.text--white.is-disabled:link, a.text--white.is-disabled:visited, a.text--white.is-disabled:hover, a.text--white.is-disabled:active {
   color: #ffffff; }
+
+.text--yellow {
+  color: #FFB567; }
+  .text--yellow.text--transparent {
+    color: rgba(255, 181, 103, 0.7); }
+
+a.text--yellow:link, a.text--yellow:visited {
+  color: #FFB567;
+  text-decoration: none; }
+a.text--yellow:hover, a.text--yellow:active {
+  color: rgba(255, 181, 103, 0.7);
+  text-decoration: none; }
+a.text--yellow.is-disabled:link, a.text--yellow.is-disabled:visited, a.text--yellow.is-disabled:hover, a.text--yellow.is-disabled:active {
+  color: #FFB567; }
 
 /* modifiers
 ......................................*/
