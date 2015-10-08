@@ -16760,9 +16760,9 @@ a.badge:hover, a.badge:active {
         border-top-color: #dfdfdf;
         border-width: 11px;
         margin-left: -11px; }
-  .table.striped tbody tr {
+  .table.table--striped tbody tr {
     border: none; }
-  .table.striped tbody tr:nth-child(odd) {
+  .table.table--striped tbody tr:nth-child(odd) {
     background: #f8f9fb; }
   .table.mini td {
     padding: 5px 10px;
@@ -16774,6 +16774,10 @@ a.badge:hover, a.badge:active {
       height: auto; }
     .table.compact td.date {
       white-space: nowrap; }
+  .table.table--small th,
+  .table.table--small td {
+    padding: 12px 15px;
+    height: auto; }
   .table.text-inverse td {
     color: #5E7887; }
     .table.text-inverse td .light {
