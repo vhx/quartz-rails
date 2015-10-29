@@ -108,7 +108,6 @@
   background: #2E064A; }
 
 .bg-image {
-  background: image-url("home/bg-footer.jpg") top center repeat #000c1d;
   position: relative; }
   .bg-image.bg-only:before {
     background: none; }
