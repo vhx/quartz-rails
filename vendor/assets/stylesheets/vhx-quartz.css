@@ -16725,7 +16725,7 @@ a.badge:hover, a.badge:active {
   .table th, .table td {
     box-sizing: border-box;
     padding: 20px 15px;
-    color: #F0F2F4;
+    color: #5E7887;
     line-height: 20px;
     vertical-align: top; }
     .table th strong, .table td strong {
@@ -16820,7 +16820,7 @@ a.badge:hover, a.badge:active {
   .table.table--striped tbody tr {
     border: none; }
   .table.table--striped tbody tr:nth-child(odd) {
-    background: #f8f9fb; }
+    background: #F7F8F9; }
   .table.mini td {
     padding: 5px 10px;
     height: auto; }
