@@ -1317,7 +1317,7 @@ select {
 
 /* button media queries
 ......................................*/
-@media only screen and (max-width: upper-bound(0em, 40em)) {
+@media only screen and (max-width: 40em) {
   .small-only-btn--fill {
     box-sizing: border-box;
     width: 100%; }
@@ -2232,7 +2232,7 @@ html {
   padding: 0px 20px;
   position: relative;
   margin: 0 auto; }
-  @media only screen and (min-width: lower-bound(40.063em, 64em)) {
+  @media only screen and (min-width: 40.063em) {
     .standard-width-container {
       padding: 0px 35; } }
 
@@ -2738,7 +2738,7 @@ object, embed, [data-clipboard] {
 /*.....................................
   Foundation Utility Extensions
 ......................................*/
-@media only screen and (max-width: upper-bound(0em, 40em)) {
+@media only screen and (max-width: 40em) {
   .small-pull {
     float: left !important; }
 
@@ -2763,7 +2763,7 @@ object, embed, [data-clipboard] {
   .small-padding-horizontal-small {
     padding-left: 5px !important;
     padding-right: 5px !important; } }
-@media only screen and (min-width: lower-bound(40.063em, 64em)) {
+@media only screen and (min-width: 40.063em) {
   .medium-padding-horizontal-medium {
     padding-left: 15px !important;
     padding-right: 15px !important; }
@@ -2780,7 +2780,7 @@ object, embed, [data-clipboard] {
 
   .medium-border-left {
     border-left: 1px solid #d6dcdf !important; } }
-@media only screen and (min-width: lower-bound(64.063em, 90em)) {
+@media only screen and (min-width: 64.063em) {
   .large-padding-horizontal-large {
     padding-left: 35px !important;
     padding-right: 35px !important; } }
@@ -2854,7 +2854,7 @@ object, embed, [data-clipboard] {
     max-height: 75px;
     width: 100%;
     overflow-y: auto; }
-    @media only screen and (max-width: upper-bound(0em, 40em)) {
+    @media only screen and (max-width: 40em) {
       .frame.xsmall {
         height: auto; } }
   .frame.small {
@@ -2862,7 +2862,7 @@ object, embed, [data-clipboard] {
     max-height: 75px;
     width: 100%;
     overflow-y: auto; }
-    @media only screen and (max-width: upper-bound(0em, 40em)) {
+    @media only screen and (max-width: 40em) {
       .frame.small {
         height: auto; } }
   .frame.medium {
@@ -2870,7 +2870,7 @@ object, embed, [data-clipboard] {
     max-height: 125px;
     width: 100%;
     overflow-y: auto; }
-    @media only screen and (max-width: upper-bound(0em, 40em)) {
+    @media only screen and (max-width: 40em) {
       .frame.medium {
         height: auto; } }
   .frame.large {
@@ -2878,7 +2878,7 @@ object, embed, [data-clipboard] {
     max-height: 325px;
     width: 100%;
     overflow-y: auto; }
-    @media only screen and (max-width: upper-bound(0em, 40em)) {
+    @media only screen and (max-width: 40em) {
       .frame.large {
         height: auto; } }
   .frame.xlarge {
@@ -2886,7 +2886,7 @@ object, embed, [data-clipboard] {
     max-height: 525px;
     width: 100%;
     overflow-y: auto; }
-    @media only screen and (max-width: upper-bound(0em, 40em)) {
+    @media only screen and (max-width: 40em) {
       .frame.xlarge {
         height: auto; } }
   .frame.xxlarge {
@@ -2894,7 +2894,7 @@ object, embed, [data-clipboard] {
     max-height: 75px;
     width: 100%;
     overflow-y: auto; }
-    @media only screen and (max-width: upper-bound(0em, 40em)) {
+    @media only screen and (max-width: 40em) {
       .frame.xxlarge {
         height: auto; } }
 
@@ -14695,7 +14695,7 @@ a.badge:hover, a.badge:active {
   z-index: 2147483642;
   position: fixed;
   border: none !important; }
-  @media only screen and (min-width: lower-bound(40.063em, 64em)) {
+  @media only screen and (min-width: 40.063em) {
     .reveal-modal .padding-left-large-medium-up {
       padding-left: 25px; } }
   .reveal-modal .overflow-hidden {
@@ -14862,7 +14862,7 @@ a.badge:hover, a.badge:active {
   margin: 0 10px 0 0;
   padding-left: 5px; }
 
-@media only screen and (min-width: lower-bound(64.063em, 90em)) {
+@media only screen and (min-width: 64.063em) {
   .footer-inline a, .footer-inline p {
     line-height: 60px; }
   .footer-inline a {
@@ -14874,7 +14874,7 @@ a.badge:hover, a.badge:active {
   .footer--made-by {
     float: right;
     text-align: right; } }
-@media only screen and (min-width: lower-bound(40.063em, 64em)) {
+@media only screen and (min-width: 40.063em) {
   .footer-inline {
     padding: 0; }
     .footer-inline a, .footer-inline p {
@@ -14890,7 +14890,7 @@ a.badge:hover, a.badge:active {
   .footer--made-by {
     text-align: center;
     padding-left: 0; } }
-@media only screen and (min-width: lower-bound(40.063em, 64em)) and (max-width: upper-bound(40.063em, 64em)) {
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
   .footer--link-list {
     display: flex;
     align-items: center;
