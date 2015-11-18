@@ -15186,6 +15186,8 @@ a.badge:hover, a.badge:active {
   /* row head
   ..................................*/
   /* table striped
+  ..................................*/
+  /* table striped
   ..................................*/ }
   .table.border-top {
     border-top: 1px solid #d6dcdf; }
@@ -15331,6 +15333,17 @@ a.badge:hover, a.badge:active {
     color: #5E7887; }
     .table.text-inverse td .light {
       color: #8d9da6; }
+  .table.table--block thead,
+  .table.table--block th,
+  .table.table--block tr,
+  .table.table--block td {
+    display: block; }
+  .table.table--block th,
+  .table.table--block td {
+    float: left; }
+  .table.table--block thead,
+  .table.table--block tr {
+    width: 100%; }
 
 .firefox .table .row-head .arrow {
   bottom: 1px; }
