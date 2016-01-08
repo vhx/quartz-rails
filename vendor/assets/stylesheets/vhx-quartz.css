@@ -6241,13 +6241,14 @@ th {
 ......................................*/
 .head, .head-1, .head-2, .head-3, .head-4, .head-5 {
   color: #375667;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   font-family: "brandon-grotesque-n1", "brandon-grotesque", "Brandon Grotesque", sans-serif; }
-  .head strong, .head-1 strong, .head-2 strong, .head-3 strong, .head-4 strong, .head-5 strong {
+  .head .text--bold, .head-1 .text--bold, .head-2 .text--bold, .head-3 .text--bold, .head-4 .text--bold, .head-5 .text--bold {
     font-weight: 600; }
 
 .head-1 {
+  font-weight: 400;
   font-size: 40px;
   letter-spacing: 2px;
   line-height: 40px; }
@@ -6255,21 +6256,25 @@ th {
     line-height: 40px; }
 
 .head-2 {
+  font-weight: 400;
   font-size: 30px;
   line-height: 30px;
   letter-spacing: 3px; }
 
 .head-3 {
+  font-weight: 400;
   font-size: 22px;
   line-height: 22px;
   letter-spacing: 1px; }
 
 .head-4 {
+  font-weight: 600;
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 1px; }
 
 .head-5 {
+  font-weight: 600;
   font-size: 14px;
   line-height: 14px;
   letter-spacing: 1px; }
