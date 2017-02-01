@@ -1,5 +1,5 @@
 module Vhx
   module Quartz
-    VERSION = "0.10.16"
+    VERSION = "0.11.16"
   end
 end
