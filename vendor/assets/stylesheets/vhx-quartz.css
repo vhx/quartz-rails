@@ -102,7 +102,7 @@
     .new-avatar.avatar--xsmall .avatar-img,
     .new-avatar.avatar--xsmall .default-avatar {
       line-height: 24px;
-      font-size: 24px; }
+      font-size: 8px; }
     .new-avatar.avatar--xsmall .default-avatar {
       padding-left: 0px;
       padding-top: 0px; }
@@ -115,7 +115,7 @@
     .new-avatar.avatar--small .avatar-img,
     .new-avatar.avatar--small .default-avatar {
       line-height: 36px;
-      font-size: 36px; }
+      font-size: 12px; }
     .new-avatar.avatar--small .default-avatar {
       padding-left: 1px;
       padding-top: 0px; }
@@ -128,7 +128,7 @@
     .new-avatar.avatar--medium .avatar-img,
     .new-avatar.avatar--medium .default-avatar {
       line-height: 46px;
-      font-size: 46px; }
+      font-size: 15px; }
     .new-avatar.avatar--medium .default-avatar {
       padding-left: 1px;
       padding-top: 0px; }
@@ -141,7 +141,7 @@
     .new-avatar.avatar--large .avatar-img,
     .new-avatar.avatar--large .default-avatar {
       line-height: 60px;
-      font-size: 60px; }
+      font-size: 20px; }
     .new-avatar.avatar--large .default-avatar {
       padding-left: 2px;
       padding-top: 1px; }
@@ -154,7 +154,7 @@
     .new-avatar.avatar--xlarge .avatar-img,
     .new-avatar.avatar--xlarge .default-avatar {
       line-height: 80px;
-      font-size: 80px; }
+      font-size: 27px; }
     .new-avatar.avatar--xlarge .default-avatar {
       padding-left: 2px;
       padding-top: 1px; }
@@ -167,7 +167,7 @@
     .new-avatar.avatar--xxlarge .avatar-img,
     .new-avatar.avatar--xxlarge .default-avatar {
       line-height: 100px;
-      font-size: 100px; }
+      font-size: 33px; }
     .new-avatar.avatar--xxlarge .default-avatar {
       padding-left: 3px;
       padding-top: 1px; }
